@@ -24,7 +24,7 @@ public class Main_Create {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
-		} // load JDBC driver with specific database
+		} 
 
 		// Step 2
 		Connection con = null;
